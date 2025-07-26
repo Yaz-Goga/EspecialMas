@@ -1,0 +1,34 @@
+# Android Studio
+.gradle/
+.idea/
+build/
+.cxx/
+.externalNativeBuild/
+captures/
+*.iml
+local.properties
+
+# Signing & security
+*.jks
+*.keystore
+*.pem
+*.p12
+*.key
+*.crt
+secret.properties
+.env
+*.env
+.env.*
+
+# Firebase / Google
+google-services.json
+firebase*.json
+
+# Logs & system
+*.log
+*.bak
+*.orig
+*.rej
+.DS_Store
+Thumbs.db
+ehthumbs.db

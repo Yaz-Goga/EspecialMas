@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android ="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/fondoPantalla">
+
+    <!-- pantalla para generar la lista de estudiantes con los atributos de
+    escuela, nombre, apellidos, grado, grupo, fecha nacimiento, diagnostico y editar-->
+    <TextView
+        android:id="@+id/EscuelaTab"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/NombreTab"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/colortextosmorado"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/ApellidosTab"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/colortextosblue"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/GradoTab"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:textColor="@color/colortextosmorado"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/GrupoTab"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:textColor="@color/colortextosblue"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/FechaNacimientoTab"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/colortextosmorado"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/DiagnosticoTab"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/colortextosblue"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/btnEditar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Editar"
+        android:scaleType="centerInside"
+        android:src="@android:drawable/ic_menu_edit" />
+
+
+</TableRow>

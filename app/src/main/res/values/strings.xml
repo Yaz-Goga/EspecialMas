@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Especial+</string>
+    <string name="entrar">Entrar</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="por_favor_rellene_los_campos_para_iniciar_sesion">Por favor, rellene los campos para iniciar sesión:</string>
+    <string name="hola">¡Hola!</string>
+    <string name="he_olvidado_mi_contrasena">He olvidado mi contraseña</string>
+    <string name="registrarme">Registrarme</string>
+    <string name="logo_especial_mas">logo especial mas</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="title_activity_registro_usuario">RegistroUsuario</string>
+    <string name="action_settings">Settings</string>
+    <string name="correo_electronicoinicio">Correo electrónico</string>
+    <string name="crear_cuenta">Crear Cuenta</string>
+    <string name="repetir_contrasena">Repetir contraseña</string>
+    <string name="repetir_contrase_a">Repetir Contraseña*</string>
+    <string name="campos_obligatorios">*Campos obligatorios</string>
+    <string name="por_favor_rellene_los_siguientes_campos_para_registrarse">Por favor, rellene los siguientes campos para registrarse:</string>
+    <string name="nombre">Nombre*</string>
+    <string name="apellidos">Apellidos*</string>
+    <string name="correo_electronico_registro">Correo Electrónico*</string>
+    <string name="contrasena_registro">Contraseña*</string>
+    <string name="apellidos_registro">Apellidos</string>
+    <string name="nombre_registro">Nombre</string>
+    <string name="minimo_8_caracteres_1_número_y_1_signo">minimo 8 caracteres, 1 número y 1 signo</string>
+    <string name="acepto_la_politica_de_privacidad">Acepto la política de privacidad*</string>
+    <string name="registro">Registro</string>
+    <string name="tu_espacio">Tu espacio</string>
+    <string name="evaluacion">Evaluación</string>
+    <string name="estudiantes">Estudiantes</string>
+    <string name="resultados">Resultados</string>
+    <string name="informes">Informes</string>
+    <string name="botonresultados">botonresultados</string>
+    <string name="botonevaluacion">botonevaluacion</string>
+    <string name="botoninformes">botoninformes</string>
+    <string name="botonestudiantes">botonestudiantes</string>
+    <string name="grado">Grado:</string>
+    <string name="nombre_del_estudiante">Nombre del estudiante:</string>
+    <string name="agregar">Agregar</string>
+    <string name="apellidosalum">Apellidos:</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="guardar_estudiante">Guardar estudiante</string>
+    <string name="nombre_de_la_escuela">Nombre de la escuela:</string>
+    <string name="grupo">Grupo:</string>
+    <string name="fecha_de_nacimiento">Fecha de nacimiento:</string>
+    <string name="diagnostico">Diagnóstico:</string>
+    <string name="estudiante">Estudiante</string>
+    <string name="inicial">Inicial</string>
+    <string name="seguimiento">Seguimiento</string>
+    <string name="finaltxt">Final</string>
+    <string name="evaluaciones_de_habilidades_adaptativas_registradas">Evaluaciones de Habilidades Adaptativas Registradas</string>
+    <string name="apellidosalumeval">Apellidos</string>
+    <string name="estudiantes_registrados">Estudiantes Registrados</string>
+    <string name="evaluar">Evaluar</string>
+    <string name="gradoEvalAlum">Grado</string>
+    <string name="grupoEvalAlum">Grupo</string>
+    <string name="nombreEvalAlum">Nombre</string>
+    <string name="estudiantePrueba" translatable="false">Estudiante:</string>
+    <string name="gestionar">Gestionar</string>
+    <string name="borrar_estudiante">Borrar Estudiante</string>
+    <string name="guardar_evaluacion">Guardar Evaluación</string>
+    <string name="escuela">Escuela</string>
+    <string name="btnEvaluar">Evaluar</string>
+    <string name="borrar_evaluacion">borrar_evaluacion</string>
+    <string name="resultados_de_evaluacion">Resultados de Evaluación</string>
+    <string name="tipo_de_evaluacion">Tipo de evaluación</string>
+    <string name="estudianteResultados">Estudiante</string>
+    <string name="ver_resultados">Ver Resultados</string>
+    <string name="selecciona_estudiante">Seleccione un estudiante</string>
+    <string name="micorreo_institucional_com">micorreo@institucional.com</string>
+    <string name="categor_a">Categoría</string>
+    <string name="item">Ítem</string>
+    <string name="estado">Estado</string>
+    <string name="observaci_n">Observación</string>
+    <string name="generar_pdf">Generar PDF</string>
+    <string name="hab_adap">Hab. Adap.</string>
+    <string name="ítem">Item</string>
+    <string name="Estado">Estado</string>
+    <string name="observaciones">Observaciones</string>
+    <string name="aspecto_tem_de_evaluaci_n">Aspecto - Ítem de evaluación</string>
+    <string name="independiente">Independiente</string>
+    <string name="en_proceso">En Proceso</string>
+    <string name="dependiente">Dependiente</string>
+    <string name="Observaciones">Observaciones</string>
+    <string name="protocolo_de_habilidades_adaptativas">Protocolo de Habilidades Adaptativas</string>
+    <string name="esc">Esc.</string>
+    <string name="nom">Nom.</string>
+    <string name="Apellidos">Apellidos</string>
+    <string name="Grado">Grado</string>
+    <string name="Grupo">Grupo</string>
+    <string name="f_n">F.N.</string>
+    <string name="edit">Edit</string>
+    <string name="dx">Dx</string>
+    <string-array name="opciones_estado">
+        <item>Todos</item>
+        <item>Independiente</item>
+        <item>En proceso</item>
+        <item>Dependiente</item>
+    </string-array>
+
+
+</resources>

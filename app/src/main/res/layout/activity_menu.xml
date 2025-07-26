@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#07166A"
+    android:backgroundTintMode="screen"
+    tools:context=".InicioApp.Menu">
+
+    <!-- botones de imagen de las secciones del menu y sus titulos en texto -->
+
+    <ImageButton
+        android:id="@+id/btnResultadosMenu"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="108dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="100dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#F8F7F7"
+        android:contentDescription="@string/botonresultados"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.207"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/resultados" />
+
+    <ImageButton
+            android:id="@+id/btnEvaluacionMenu"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="108dp"
+            android:layout_height="131dp"
+            android:layout_marginTop="88dp"
+            android:adjustViewBounds="true"
+            android:backgroundTint="#F8F7F7"
+            android:contentDescription="@string/botonevaluacion"
+            android:cropToPadding="false"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.841"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtTuEspacio"
+            app:srcCompat="@drawable/evaluacion" />
+
+        <ImageButton
+            android:id="@+id/btnInformesMenu"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="108dp"
+            android:layout_height="131dp"
+            android:layout_marginTop="108dp"
+            android:adjustViewBounds="true"
+            android:backgroundTint="#F8F7F7"
+            android:contentDescription="@string/botoninformes"
+            android:cropToPadding="false"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.843"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            app:srcCompat="@drawable/informes" />
+
+        <TextView
+            android:id="@+id/txtTuEspacio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="116dp"
+            android:text="@string/tu_espacio"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#F4EEEE"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/BtnEstudiantesMenu"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="108dp"
+            android:layout_height="131dp"
+            android:layout_marginTop="88dp"
+            android:adjustViewBounds="true"
+            android:backgroundTint="#F8F7F7"
+            android:contentDescription="@string/botonestudiantes"
+            android:cropToPadding="false"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.168"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtTuEspacio"
+            app:srcCompat="@drawable/estudiantes" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="123dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="131dp"
+            android:text="@string/estudiantes"
+            android:textAlignment="center"
+            android:textColor="#EDECEC"
+            android:textColorLink="#FFFEFE"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.168"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/BtnEstudiantesMenu" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="108dp"
+            android:layout_height="27dp"
+            android:text="@string/resultados"
+            android:textAlignment="center"
+            android:textColor="#EDECEC"
+            android:textColorLink="#FFFEFE"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.168"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnResultadosMenu" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="108dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/informes"
+            android:textAlignment="center"
+            android:textColor="#EDECEC"
+            android:textColorLink="#FFFEFE"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.843"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnInformesMenu" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="108dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="131dp"
+            android:text="@string/evaluacion"
+            android:textAlignment="center"
+            android:textColor="#EDECEC"
+            android:textColorLink="#FFFEFE"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.843"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnEvaluacionMenu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

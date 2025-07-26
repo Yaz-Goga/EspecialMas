@@ -1,0 +1,17 @@
+# Archivos comunes de Android Studio
+.gradle/
+.idea/
+build/
+local.properties
+*.iml
+
+# Archivos de firma
+*.jks
+*.keystore
+
+# Archivos del sistema
+.DS_Store
+*.log
+
+# Archivos de configuración
+.env
